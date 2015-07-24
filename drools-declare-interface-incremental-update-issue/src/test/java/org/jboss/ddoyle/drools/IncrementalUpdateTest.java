@@ -59,7 +59,7 @@ public class IncrementalUpdateTest {
 		ruleBuilder.append("when\n");
 		ruleBuilder.append("Event()\n");
 		ruleBuilder.append("then\n");
-		ruleBuilder.append("System.out.println(\"Second rule fired!\");\n");
+		ruleBuilder.append("System.out.println(\"First rule fired!\");\n");
 		ruleBuilder.append("end");
 		return ruleBuilder.toString();
 	}
@@ -78,7 +78,7 @@ public class IncrementalUpdateTest {
 		ruleBuilder.append("when\n");
 		ruleBuilder.append("Event()\n");
 		ruleBuilder.append("then\n");
-		ruleBuilder.append("System.out.println(\"First rule fired!\");\n");
+		ruleBuilder.append("System.out.println(\"Second rule fired!\");\n");
 		ruleBuilder.append("end");
 		return ruleBuilder.toString();
 
